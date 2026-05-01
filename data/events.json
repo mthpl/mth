@@ -1,19 +1,19 @@
 {
-  "updated": "2026-04-30T23:38:16.471689Z",
+  "updated": "2026-05-01T07:53:03.005486Z",
   "events": [
+    {
+      "title": "Pomorskie - IX ROZPOCZECIE SEZONU MOTOCYKLOWEGO",
+      "region": "Kujawsko",
+      "description": "Zapraszamy wszystkich motocyklistów oraz sympatyków dwóch kółek na dziewiątą edycję wspólnego rozpoczęcia sezonu! To idealna okazja, aby spotkać się w…",
+      "image": "https://gdzienazlot.pl/wp-content/uploads/2026/05/1000014168.jpg",
+      "date": "2026-05-01T06:37:47.143000+00:00"
+    },
     {
       "title": "Namysłowskie Rozpoczęcie Sezonu Motocyklowego",
       "region": "Opolskie",
       "description": "Program wydarzenia:\n https://gdzienazlot.pl/opolskie/namyslowskie-rozpoczecie-sezonu-motocyklowego/?utm_source=motohub",
       "image": "https://gdzienazlot.pl/wp-content/uploads/2026/04/04bf2cbd-93c2-4fd8-a627-3f41369430e1.jpg",
       "date": "2026-04-30T09:35:22.470000+00:00"
-    },
-    {
-      "title": "IX MOTOMAJÓWKA KARLINO – DOMACYNO",
-      "region": "Zachodniopomorskie",
-      "description": "Karlino – 2 maja 2026\n https://gdzienazlot.pl/zachodniopomorskie/ix-motomajowka-karlino-domacyno/?utm_source=motohub",
-      "image": "https://gdzienazlot.pl/wp-content/uploads/2026/04/file_122.jpg",
-      "date": "2026-04-29T04:36:14.498000+00:00"
     }
   ]
 }
