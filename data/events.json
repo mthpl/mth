@@ -1,19 +1,19 @@
 {
-  "updated": "2026-05-11T18:03:17.933876Z",
+  "updated": "2026-05-11T22:18:22.677077Z",
   "events": [
+    {
+      "title": "Pomorskie - V MOTOFIRE",
+      "region": "Kujawsko",
+      "description": "V Motofire to wydarzenie łączące zlot motocyklowy, piknik strażacki i festyn rodzinny w klimacie farmerskim. Program wydarzenia •wspólna parada, która…",
+      "image": "https://gdzienazlot.pl/wp-content/uploads/2026/05/694060185_3851428894988415_3807828299526838813_n.jpg",
+      "date": "2026-05-11T18:07:34.729000+00:00"
+    },
     {
       "title": "XVIII EDYCJA MOTOSERCE",
       "region": "Zachodniopomorskie",
       "description": "Kołobrzeg – 16 maja 2026\n https://gdzienazlot.pl/zachodniopomorskie/xviii-edycja-motoserce/?utm_source=motohub",
       "image": "https://gdzienazlot.pl/wp-content/uploads/2026/05/file_147.jpg",
       "date": "2026-05-11T15:39:25.563000+00:00"
-    },
-    {
-      "title": "DZIEŃ OTWARTY KLUBU MOTOCYKLOWEGO ANGRY WOLF ZIĘBICE",
-      "region": "Dolnośląskie",
-      "description": "Ziębice – 16 maja 2026\n https://gdzienazlot.pl/dolnoslaskie/dzien-otwarty-klubu-motocyklowego-angry-wolf-ziebice/?utm_source=motohub",
-      "image": "https://gdzienazlot.pl/wp-content/uploads/2026/05/file_144.jpg",
-      "date": "2026-05-11T15:23:23.684000+00:00"
     }
   ]
 }
