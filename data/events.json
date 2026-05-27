@@ -1,19 +1,19 @@
 {
-  "updated": "2026-05-27T14:22:15.076654Z",
+  "updated": "2026-05-27T17:39:38.967749Z",
   "events": [
+    {
+      "title": "PARADA MOTOCYKLOWA",
+      "region": "Wielkopolskie",
+      "description": "Rakoniewice – 30 maja 2023\n https://gdzienazlot.pl/wielkopolskie/parada-motocyklowa-2/?utm_source=motohub",
+      "image": "https://gdzienazlot.pl/wp-content/uploads/2026/05/file_180.jpg",
+      "date": "2026-05-27T16:12:35.904000+00:00"
+    },
     {
       "title": "MOTO SERCE – MOTOCYKLOWY DZIEŃ DZIECKA",
       "region": "Lubelskie",
       "description": "Dołącz do nas na MOTOCYKLOWYM DNIU DZIECKA, gdzie połączymy pasję do motocykli z pomocą innym. Program wydarzenia\n https://gdzienazlot.pl/lubelskie/mo…",
       "image": "https://gdzienazlot.pl/wp-content/uploads/2026/05/684826036_27070154255950290_3414038064662216891_n.jpg",
       "date": "2026-05-27T08:39:32.409000+00:00"
-    },
-    {
-      "title": "X MOTOCYKLOWY DZIEŃ DZIECKA",
-      "region": "Zachodniopomorskie",
-      "description": "Grupa Motocykliści o Wielkich Sercach oraz Muzeum Techniki i Komunikacji – Zajezdnia Sztuki w Szczecinie serdecznie zapraszają wszystkie dzieci z regi…",
-      "image": "https://gdzienazlot.pl/wp-content/uploads/2026/05/cover-24.jpg",
-      "date": "2026-05-27T08:39:31.419000+00:00"
     }
   ]
 }
