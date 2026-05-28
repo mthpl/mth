@@ -1,19 +1,19 @@
 {
-  "updated": "2026-05-28T10:47:31.491539Z",
+  "updated": "2026-05-28T14:31:19.739970Z",
   "events": [
+    {
+      "title": "DZIEŃ DZIECKA",
+      "region": "Mazowieckie",
+      "description": "Zielonka – 31 maja 2023\n https://gdzienazlot.pl/mazowieckie/dzien-dziecka/?utm_source=motohub",
+      "image": "",
+      "date": "2026-05-28T12:49:38.743000+00:00"
+    },
     {
       "title": "MOTOSERCE – KĘDZIERZYN-KOŹLE",
       "region": "Opolskie",
       "description": "Koźle – 7 czerwca 2026\n https://gdzienazlot.pl/opolskie/motoserce-kedzierzyn-kozle/?utm_source=motohub",
       "image": "https://gdzienazlot.pl/wp-content/uploads/2026/05/file_182.jpg",
       "date": "2026-05-28T10:05:31.765000+00:00"
-    },
-    {
-      "title": "V Gorzowski Zlot Motocyklowy",
-      "region": "Opolskie",
-      "description": "Stowarzyszenie „Dwa Koła” Gorzów Śląski serdecznie zaprasza na V Gorzowski Zlot Motocyklowy. Wydarzenie odbywa się pod patronatem Burmistrza Gorzowa Ś…",
-      "image": "https://gdzienazlot.pl/wp-content/uploads/2026/05/V-GORZOWSKI-ZLOT-MOTOCYKLOWY.png",
-      "date": "2026-05-28T09:48:48.846000+00:00"
     }
   ]
 }
