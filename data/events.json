@@ -1,19 +1,19 @@
 {
-  "updated": "2026-06-23T04:37:39.522685Z",
+  "updated": "2026-06-23T08:24:33.041164Z",
   "events": [
+    {
+      "title": "Zlot Motocyklowy – Powitanie Lata – Kępa Polska",
+      "region": "Mazowieckie",
+      "description": "Zapraszamy na wyjątkowy zlot motocyklowy w Kępie Polskiej, który łączy pasję do motocykli z chęcią pomocy potrzebującym. Program wydarzenia Tegoroczny…",
+      "image": "https://gdzienazlot.pl/wp-content/uploads/2026/06/cover-24.jpg",
+      "date": "2026-06-23T08:19:53.671000+00:00"
+    },
     {
       "title": "X PIKNIK CHARYTATYWNY DLA EDYTKI",
       "region": "Dolnośląskie",
       "description": "Biernatki – 27 czerwca 2026\n https://gdzienazlot.pl/dolnoslaskie/x-piknik-charytatywny-dla-edytki/?utm_source=motohub",
       "image": "https://gdzienazlot.pl/wp-content/uploads/2026/06/file_228.jpg",
       "date": "2026-06-22T19:04:02.531000+00:00"
-    },
-    {
-      "title": "XX ZLOT MOTOCYKLOWY W KOLE",
-      "region": "Wielkopolskie",
-      "description": "Koło – 26 czerwca 2026\n https://gdzienazlot.pl/wielkopolskie/xx-zlot-motocyklowy-w-kole/?utm_source=motohub",
-      "image": "https://gdzienazlot.pl/wp-content/uploads/2026/06/file_227.jpg",
-      "date": "2026-06-22T18:49:31.140000+00:00"
     }
   ]
 }
