@@ -113,16 +113,53 @@
 /* ── RIDES SLIDER ── */
 (function () {
   const track = document.getElementById('rides-track');
+  const prevBtn = document.getElementById('rides-prev');
+  const nextBtn = document.getElementById('rides-next');
+  const dotsEl  = document.getElementById('rides-dots');
   if (!track) return;
+
   const slides = track.querySelectorAll('.rides-slide');
-  const dotsEl = document.getElementById('rides-dots');
-  let current = 0;
+  const total  = slides.length;
+  let current  = 0;
+  let autoTimer = null;
+
+  // Build dots
   slides.forEach((_, i) => {
     const d = document.createElement('div');
     d.className = 'rides-dot' + (i === 0 ? ' active' : '');
-    d.onclick = () => { current = i; track.style.transform = `translateX(-${current * 100}%)`; document.querySelectorAll('.rides-dot').forEach((dot, idx) => dot.classList.toggle('active', idx === i)); };
+    d.addEventListener('click', () => goTo(i));
     dotsEl.appendChild(d);
   });
+
+  function updateDots() {
+    dotsEl.querySelectorAll('.rides-dot').forEach((d, i) => d.classList.toggle('active', i === current));
+  }
+
+  function goTo(index) {
+    current = (index + total) % total;
+    track.style.transform = `translateX(-${current * 100}%)`;
+    updateDots();
+  }
+
+  function next() { goTo(current + 1); }
+  function prev() { goTo(current - 1); }
+
+  // Prev / Next buttons
+  if (nextBtn) nextBtn.addEventListener('click', (e) => { e.stopPropagation(); resetAuto(); next(); });
+  if (prevBtn) prevBtn.addEventListener('click', (e) => { e.stopPropagation(); resetAuto(); prev(); });
+
+  // Autoplay
+  function startAuto() { autoTimer = setInterval(next, 3000); }
+  function resetAuto()  { clearInterval(autoTimer); startAuto(); }
+
+  // Pause on hover
+  const slider = document.getElementById('rides-slider');
+  if (slider) {
+    slider.addEventListener('mouseenter', () => clearInterval(autoTimer));
+    slider.addEventListener('mouseleave', startAuto);
+  }
+
+  startAuto();
 })();
 
 /* ── STAT NUM ANIMATION ── */
