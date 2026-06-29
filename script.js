@@ -46,7 +46,7 @@
   } else { els.forEach(show); }
 })();
 
-/* ── LIVE DISCORD STATS (Naprawiony błąd przypisywania ID) ── */
+/* ── LIVE DISCORD STATS ── */
 (function () {
   const INVITE = 'motohub-polska-spolecznosc-motocyklowa-1191618604026826844';
   const API = `https://discord.com/api/v9/invites/${INVITE}?with_counts=true`;
