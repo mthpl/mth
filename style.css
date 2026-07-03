@@ -276,9 +276,10 @@ body {
 
 /* ── PARTNER CARD ── */
 .feature--partner {
-  overflow: visible;
-  z-index: 10;
+  overflow: hidden;
+  z-index: 2;
   cursor: pointer;
+  transition: border-color .4s, transform .4s var(--ease-out), background .4s, max-height .5s var(--ease-out);
 }
 .feature--partner:not(.partner-open) {
   animation: cal-shake-loop 4s ease-in-out infinite;
@@ -295,33 +296,34 @@ body {
   white-space: nowrap;
   animation: hint-blink 2s ease-in-out infinite;
 }
-.partner-overlay {
-  position: absolute;
-  top: 0; left: 0; right: 0;
-  background: #0d1117;
-  border: 1px solid rgba(57,255,20,.3);
-  border-radius: 16px;
-  padding: 20px;
+
+/* Default content fades out when open */
+.feature--partner .partner-default {
+  transition: opacity .2s, max-height .4s var(--ease-out);
+  overflow: hidden;
+  max-height: 300px;
+  opacity: 1;
+}
+.feature--partner.partner-open .partner-default {
   opacity: 0;
+  max-height: 0;
   pointer-events: none;
-  transform: translateY(6px) scale(.98);
-  transition: opacity .3s var(--ease-out), transform .3s var(--ease-out);
-  z-index: 20;
-  min-height: 100%;
-  box-shadow: 0 20px 60px rgba(0,0,0,.6), 0 0 0 1px rgba(57,255,20,.1);
+}
+
+/* Partner overlay — now in normal flow, not absolute */
+.partner-overlay {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height .5s var(--ease-out), opacity .3s var(--ease-out);
+  border-top: 0px solid rgba(57,255,20,.3);
 }
 .partner-open .partner-overlay {
+  max-height: 600px;
   opacity: 1;
   pointer-events: auto;
-  transform: none;
 }
-.partner-open > .feature__stripe,
-.partner-open > .feature__header,
-.partner-open > .feature__title,
-.partner-open > .feature__text {
-  opacity: 0;
-  transition: opacity .15s;
-}
+.partner-open > .feature__stripe { opacity: 1; }
 .partner-overlay__header {
   display: flex; align-items: center; gap: 8px;
   font-family: var(--f-head);
