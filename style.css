@@ -228,7 +228,7 @@ body {
 .socials__head { max-width: 1100px; margin: 0 auto 60px; }
 .socials__eyebrow { font-family: var(--f-head); font-size: .8rem; font-weight: 600; letter-spacing: .3em; text-transform: uppercase; color: var(--g); margin-bottom: 12px; }
 .socials__title { font-family: var(--f-head); font-size: clamp(2.4rem, 6vw, 4rem); font-weight: 900; line-height: .95; text-transform: uppercase; color: var(--white); }
-.tiles { max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.tiles { max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
 .tile { position: relative; aspect-ratio: 9/13; border-radius: 20px; overflow: hidden; border: 1px solid rgba(255,255,255,.08); display: block; transition: transform .5s var(--ease-out), border-color .4s, box-shadow .4s; will-change: transform; }
 .tile:hover { transform: translateY(-10px) scale(1.02); border-color: rgba(255,255,255,.18); }
 .tile__bg { position: absolute; inset: 0; transition: transform .6s var(--ease-out); }
@@ -251,6 +251,9 @@ body {
 .tile--discord:hover { box-shadow: 0 20px 60px rgba(88,101,242,.3); }
 .tile--insta .tile__bg { background: radial-gradient(ellipse at 20% 80%, #bc1888 0%, transparent 55%), radial-gradient(ellipse at 80% 20%, #6b2fa0 0%, transparent 55%), #0e0716; }
 .tile--insta:hover { box-shadow: 0 20px 60px rgba(188,24,136,.3); }
+
+.tile--fb .tile__bg { background: radial-gradient(ellipse at 30% 20%, #1877f2 0%, transparent 60%), radial-gradient(ellipse at 80% 80%, #0a3d8f 0%, transparent 60%), #020d1f; }
+.tile--fb:hover { box-shadow: 0 20px 60px rgba(24,119,242,.3); }
 .tile--riser .tile__bg { background: radial-gradient(ellipse at 65% 15%, #7c3aed 0%, transparent 50%), radial-gradient(ellipse at 25% 85%, #1e0a3c 0%, transparent 55%), #0a0612; }
 .tile--riser:hover { box-shadow: 0 20px 60px rgba(124,58,237,.35); }
 .tile__img-icon { width: 88px; height: 88px; object-fit: contain; border-radius: 20px; filter: drop-shadow(0 4px 20px rgba(124,58,237,.5)); transition: transform .4s cubic-bezier(0.22,1,0.36,1), filter .4s; }
@@ -404,7 +407,7 @@ body {
 @media (max-width: 960px) {
   .features__inner { grid-template-columns: 1fr; gap: 12px; }
   .feature { padding: 28px 24px; }
-  .tiles { grid-template-columns: 1fr; max-width: 420px; margin: 0 auto; }
+  .tiles { grid-template-columns: repeat(2, 1fr); max-width: 600px; margin: 0 auto; }
   .tile { aspect-ratio: 16/9; }
   .tile__icon-wrap svg { width: 56px; height: 56px; }
   .tile__label-vert { font-size: 1.2rem; }
@@ -422,6 +425,7 @@ body {
   .stat__sep { width: 100%; height: 1px; align-self: auto; }
   .features { padding: 0 16px 70px; }
   .socials { padding: 60px 20px 100px; }
+  .tiles { grid-template-columns: 1fr; max-width: 380px; }
   .footer { padding: 40px 20px 28px; }
   .footer__inner { flex-direction: column; align-items: flex-start; gap: 20px; }
   .socials__title { font-size: 2.2rem; }
