@@ -103,9 +103,18 @@
 (function () {
   const card = document.getElementById('feature-partner');
   if (!card) return;
+
   card.addEventListener('click', (e) => {
+    // Let link clicks through
     if (e.target.closest('.partner-card')) return;
     card.classList.toggle('partner-open');
+  });
+
+  // Click outside to close
+  document.addEventListener('click', (e) => {
+    if (!card.contains(e.target)) {
+      card.classList.remove('partner-open');
+    }
   });
 })();
 
@@ -122,6 +131,7 @@
   let current  = 0;
   let autoTimer = null;
 
+  // Build dots
   slides.forEach((_, i) => {
     const d = document.createElement('div');
     d.className = 'rides-dot' + (i === 0 ? ' active' : '');
@@ -142,12 +152,15 @@
   function next() { goTo(current + 1); }
   function prev() { goTo(current - 1); }
 
+  // Prev / Next buttons
   if (nextBtn) nextBtn.addEventListener('click', (e) => { e.stopPropagation(); resetAuto(); next(); });
   if (prevBtn) prevBtn.addEventListener('click', (e) => { e.stopPropagation(); resetAuto(); prev(); });
 
+  // Autoplay
   function startAuto() { autoTimer = setInterval(next, 3000); }
   function resetAuto()  { clearInterval(autoTimer); startAuto(); }
 
+  // Pause on hover
   const slider = document.getElementById('rides-slider');
   if (slider) {
     slider.addEventListener('mouseenter', () => clearInterval(autoTimer));
