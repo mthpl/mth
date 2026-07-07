@@ -1,19 +1,19 @@
 {
-  "updated": "2026-07-07T08:16:04.643399Z",
+  "updated": "2026-07-07T11:21:52.542321Z",
   "events": [
+    {
+      "title": "Mazurskie - MOTO BIWAK 4 TX & RD",
+      "region": "Warmińsko",
+      "description": "Zapraszamy na kolejną edycję MOTO BIWAKU organizowaną przez TEAM XTREME i Rumianą Dolinę, gdzie czeka Was niezapomniana integracja motocyklowa. Progra…",
+      "image": "https://gdzienazlot.pl/wp-content/uploads/2026/07/cover-5.jpg",
+      "date": "2026-07-07T10:30:17.875000+00:00"
+    },
     {
       "title": "RETRO MOTO RAJD WIŚNIOWA 601",
       "region": "Podkarpackie",
       "description": "Wiśniowa – 11 lipca 2026\n https://gdzienazlot.pl/podkarpackie/retro-moto-rajd-wisniowa-601/?utm_source=motohub",
       "image": "https://gdzienazlot.pl/wp-content/uploads/2026/07/file_257.jpg",
       "date": "2026-07-07T05:01:17.430000+00:00"
-    },
-    {
-      "title": "Warszawski Festiwal Motocyklowy – WFM",
-      "region": "Mazowieckie",
-      "description": "Przez trzy dni nad Zalewem Bardowskiego spotkają się ludzie, których łączy wspólna pasja – motocykle, wolność i mocne brzmienia. Zapowiada się weekend…",
-      "image": "https://gdzienazlot.pl/wp-content/uploads/2026/07/cover-4.jpg",
-      "date": "2026-07-07T04:46:34.955000+00:00"
     }
   ]
 }
