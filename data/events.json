@@ -1,19 +1,19 @@
 {
-  "updated": "2026-07-10T07:28:18.676251Z",
+  "updated": "2026-07-10T10:34:10.865298Z",
   "events": [
+    {
+      "title": "Parada motocyklowa oraz III Gostyński Zlot Motocyklowy",
+      "region": "Śląskie",
+      "description": "Program wydarzeń Miejsce zbiórki Parady: https://maps.app.goo.gl/jhTeFbDMxX3t9CbPA Miejsce zlotu: https://maps.app.goo.gl/pXc1NkQFCvCr74UV6\n https://g…",
+      "image": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=d2nKiq-ShDQCML-dqkSgDQ&cb_client=search.gws-prod.gps&w=900&h=900&yaw=194.39502&pitch=0&thumbfov=100",
+      "date": "2026-07-10T10:23:12.222000+00:00"
+    },
     {
       "title": "PARADA MOTOCYKLOWA",
       "region": "Podlaskie",
       "description": "Suwałki – 11 lipca 2026\n https://gdzienazlot.pl/podlaskie/parada-motocyklowa-3/?utm_source=motohub",
       "image": "https://gdzienazlot.pl/wp-content/uploads/2026/07/file_263.jpg",
       "date": "2026-07-09T06:47:39.338000+00:00"
-    },
-    {
-      "title": "MOTOKROPLA",
-      "region": "Wielkopolskie",
-      "description": "Wilczyn – 25 lipca 2023\n https://gdzienazlot.pl/wielkopolskie/motokropla/?utm_source=motohub",
-      "image": "https://gdzienazlot.pl/wp-content/uploads/2026/07/file_262.jpg",
-      "date": "2026-07-09T06:47:38.181000+00:00"
     }
   ]
 }
