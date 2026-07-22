@@ -1,19 +1,19 @@
 {
-  "updated": "2026-07-22T10:17:43.799472Z",
+  "updated": "2026-07-22T12:10:31.369346Z",
   "events": [
+    {
+      "title": "HIGH RISK MEETING & BIKE",
+      "region": "Wielkopolskie",
+      "description": "Tarnówka – 24 lipca 2026\n https://gdzienazlot.pl/wielkopolskie/high-risk-meeting-bike/?utm_source=motohub",
+      "image": "https://gdzienazlot.pl/wp-content/uploads/2026/07/file_288.jpg",
+      "date": "2026-07-22T10:29:28.084000+00:00"
+    },
     {
       "title": "MOTONATION SQUARE MIELNO",
       "region": "Zachodniopomorskie",
       "description": "Mielno – 26 lipca 2023\n https://gdzienazlot.pl/zachodniopomorskie/motonation-square-mielno/?utm_source=motohub",
       "image": "https://gdzienazlot.pl/wp-content/uploads/2026/07/file_286.jpg",
       "date": "2026-07-22T04:49:24.250000+00:00"
-    },
-    {
-      "title": "XX MotoPiknik Tokarnia",
-      "region": "Świętokrzyskie",
-      "description": "MotoPiknik Tokarnia to coroczne wydarzenie, na które zapraszamy miłośników motoryzacji do wystawienia swoich pojazdów. Program wydarzenia •Tylko samoc…",
-      "image": "https://gdzienazlot.pl/wp-content/uploads/2026/07/cover-16.jpg",
-      "date": "2026-07-22T04:49:23.081000+00:00"
     }
   ]
 }
