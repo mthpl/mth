@@ -1,19 +1,19 @@
 {
-  "updated": "2026-10-01T14:40:12.637445Z",
+  "updated": "2026-10-01T20:00:07.961760Z",
   "events": [
+    {
+      "title": "PIKNIK MOTOCYKLOWY",
+      "region": "Wielkopolskie",
+      "description": "Września – 4 października 2026\n https://gdzienazlot.pl/wielkopolskie/piknik-motocyklowy-7/?utm_source=motohub",
+      "image": "https://gdzienazlot.pl/wp-content/uploads/2026/10/file_417.jpg",
+      "date": "2026-10-01T19:34:02.965000+00:00"
+    },
     {
       "title": "MOTOSOBOTA w Harley-Davidson V-FORCE Poznań",
       "region": "Wielkopolskie",
       "description": "Oto propozycja wpisu na portal: Serdecznie zapraszamy na wydarzenie MOTOSOBOTA w salonie V-FORCE Poznań, które odbędzie się 3 października. Szykuje si…",
       "image": "https://gdzienazlot.pl/wp-content/uploads/2026/09/cover-40.jpg",
       "date": "2026-10-01T11:32:44.881000+00:00"
-    },
-    {
-      "title": "PARTY IN MEMORY",
-      "region": "Dolnośląskie",
-      "description": "https://gdzienazlot.pl/dolnoslaskie/party-in-memory/?utm_source=motohub",
-      "image": "https://gdzienazlot.pl/wp-content/uploads/2026/09/cover-41.jpg",
-      "date": "2026-10-01T11:32:43.596000+00:00"
     }
   ]
 }
